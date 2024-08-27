@@ -1,0 +1,55 @@
+/* Setting the body background color to a purple and blue gradient */
+body {
+    background: linear-gradient(to right, purple, blue);
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Styling the form */
+form {
+    background-color: rgba(255, 255, 255, 0.2); /* Adding some transparency */
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling form labels and inputs */
+label {
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="file"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Styling the button */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
